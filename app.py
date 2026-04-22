@@ -38,7 +38,7 @@ def load_data(uploaded=None):
     else:
         # Try default path
         try:
-            df = pd.read_csv("Credit_Risk_Data.csv")
+            df = pd.read_csv("Credit Risk Data.csv")
         except FileNotFoundError:
             return None
     return df.dropna()

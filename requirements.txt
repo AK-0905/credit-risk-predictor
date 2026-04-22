@@ -1,6 +1,7 @@
-streamlit==1.28.0
+streamlit
 pandas
 numpy
 matplotlib
 seaborn
 scikit-learn
+Pillow==10.2.0
